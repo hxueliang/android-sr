@@ -4,11 +4,15 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TestActivity extends AppCompatActivity {
+import com.hxl.androidsr.utils.LoginStatusManager;
+
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test);
+        setContentView(R.layout.activity_register);
+
+        LoginStatusManager.saveLoginStatus(this, true);
     }
 }
