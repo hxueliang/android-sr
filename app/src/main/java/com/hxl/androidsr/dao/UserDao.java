@@ -10,7 +10,7 @@ import com.hxl.androidsr.enity.UserInfo;
 @Dao
 public interface UserDao {
     @Insert
-    void insert(UserInfo... book);
+    void insert(UserInfo... user);
 
     // 根据账号查询用户
     @Query("SELECT * FROM UserInfo WHERE account = :account ORDER BY id DESC limit 1")
