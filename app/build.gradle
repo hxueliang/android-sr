@@ -48,6 +48,7 @@ dependencies {
     androidTestImplementation libs.espresso.core
 
     implementation libs.room.common
+    implementation libs.room.runtime.android
 
     // 数据库处理框架Room
     implementation 'androidx.room:room-runtime:2.2.5'
