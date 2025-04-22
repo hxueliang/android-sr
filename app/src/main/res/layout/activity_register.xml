@@ -71,6 +71,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_toRightOf="@+id/iv_account"
                 android:background="@color/white"
+                android:hint="请输入账号"
                 android:text=""
                 android:textSize="18dp" />
 
@@ -100,6 +101,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_toRightOf="@+id/iv_pwd"
                 android:background="@color/white"
+                android:hint="请输入密码"
                 android:inputType="textPassword"
                 android:text=""
                 android:textSize="18dp" />
@@ -130,6 +132,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_toRightOf="@+id/iv_pwd2"
                 android:background="@color/white"
+                android:hint="请再次输入密码"
                 android:inputType="textPassword"
                 android:text=""
                 android:textSize="18dp" />
